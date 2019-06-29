@@ -1,0 +1,71 @@
+#header{
+    height: 32px;
+    background: #a9180a;
+    border: 1px solid #a9180a;
+}
+.header-login,.header-user{
+    height: 32px;
+    line-height: 32px;
+}
+.header-login span,.header-login a,.header-user a{
+    color: #fff;
+    font-size: 12px;
+}
+.header-login a,.header-user a{
+    text-decoration: none;
+    padding: 0 10px 0 20px;
+}
+.header-user{
+
+    float: right;
+}
+
+.header-login{
+    float: left;
+}
+.header-user > li{
+    float: left;
+}
+}
+.list-arrow{
+    position: relative;
+}
+.sub-list{
+    position: absolute;
+    left: 0px;
+    top: 32px;  
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+    display: none;
+}
+.sub-list-tb{
+    width: 90px;
+    line-height: 20px;
+}
+.sub-list >li > a{
+    color: #999;
+    padding-left: 10px;
+}
+.list-arrow:hover .sub-list{
+    display: block;
+}
+.list-arrow:hover{
+    background: #fff;
+}
+.list-arrow:hover > a{
+    color: #ff0036;
+    text-decoration: underline;
+}
+.sub-list:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+

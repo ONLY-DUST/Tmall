@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+
+}
+.wrapper{
+    width: 1230px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+li{
+    position: relative;
+}
+.list-arrow::after{
+    content: "";
+    width: 0;
+    height: 0;
+    border: 3px solid transparent;
+    border-top: 3px solid  #bbb;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    right: 3px;
+    top: 15px;
+}
+.a::after{
+    content: "";
+    width: 0;
+    height: 0;
+    border: 3px solid transparent;
+    border-right: 1px solid white;
+    position: relative;
+    left: 5px;
+}
