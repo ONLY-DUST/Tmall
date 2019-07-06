@@ -17,8 +17,16 @@ ul{
 li{
     position: relative;
 }
-.list-arrow::after{
+.a::after{
     content: "";
+    width: 0;
+    height: 0;
+    border: 3px solid transparent;
+    border-right: 1px solid white;
+    position: relative;
+    left: 5px;
+}
+.arrow{
     width: 0;
     height: 0;
     border: 3px solid transparent;
@@ -28,13 +36,5 @@ li{
     position: absolute;
     right: 3px;
     top: 15px;
-}
-.a::after{
-    content: "";
-    width: 0;
-    height: 0;
-    border: 3px solid transparent;
-    border-right: 1px solid white;
-    position: relative;
-    left: 5px;
+    transition: transform 0.2s linear;
 }
