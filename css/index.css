@@ -65,6 +65,71 @@
     transform: rotate(180deg);
     transform-origin: 50% 25% ; 
 }
+.mycar{
+    font-size: 12px;
+}
+.logo{
+    width: 240px;
+    height: 130px;
+}
+.logo{
+    float: left;
+}
+.search{
+    float: left;
+    margin: 48px 38px;
+    overflow: hidden;
+}
+.searchbox{
+    width: 623px;
+    height: 36px;
+    border: 2px solid #ff0036;
+}
+.search-content{
+    width: 491px;
+    height: 36px;
+    border:none;
+    /* 输入框 选中样式   */
+    outline: none;
+    text-indent: 5px;
+    float: left;
+}
+.search-btn{
+    width: 132px;
+    height: 36px;
+    background: #ff0036;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;   
+    color: #fff;
+    letter-spacing: 5px;
+    float: left;
+}
+.search-list li{
+    float: left;
+    margin-top: 3px;
+    padding: 0  12px;  
+    position: relative;
+    left: -13px;
+
+}
+.search-list li::after{
+    content: "";
+    width: 1px;
+    height: 14px;
+    position: absolute;
+    left: 0 ;
+    top: 4px;
+    background: #999;
+}
+.search-list li a{
+    color:#999;
+    font-size: 14px;
+}
+.search-list li.list-hot a{
+    color:#ff0036;
+}
+
 
 
 
