@@ -17,6 +17,9 @@ ul{
 li{
     position: relative;
 }
+a{
+    text-decoration: none;
+}
 .a::after{
     content: "";
     width: 0;
@@ -37,4 +40,9 @@ li{
     right: 3px;
     top: 15px;
     transition: transform 0.2s linear;
+}
+.clearfix::after{
+    content:'';
+    display: block;
+    clear: both;
 }

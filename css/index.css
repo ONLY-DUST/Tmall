@@ -58,7 +58,7 @@
     color: #ff0036;
     text-decoration: underline;
 }
-.sub-list:hover{
+.sub-list:hovƒer{
     text-decoration: underline;
 }
 .list-arrow:hover .arrow{
@@ -74,6 +74,9 @@
 }
 .logo{
     float: left;
+}
+.logo-box{
+    overflow: hidden;
 }
 .search{
     float: left;
@@ -129,7 +132,49 @@
 .search-list li.list-hot a{
     color:#ff0036;
 }
-
+.nav li{
+    float: left;
+}
+.nav img{
+    width: 100px;
+    height: 30px;
+    margin-top: 1.5px;
+}
+.nav a{
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 8px;
+}
+.nav{
+    padding-left: 200px;
+    width: 1030px;
+    overflow: hidden;
+}
+.slider-box{
+    height: 500px;
+    background: red;
+}
+.slider-box .wrapper{
+    height: 500px;
+    background: #0000ff;
+    position: relative;
+}
+.menu-box{
+    position: absolute;
+    top:-35px;
+    left:0px;
+    /* background: #00ff00; */
+    background: rgba(0,0,0,0.55);
+    width: 200px;
+    height: 535px;
+}
+.img-box img{
+    width: 1230px;
+}
 
 
 
